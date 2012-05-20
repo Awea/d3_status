@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH.unshift('lib')
+
+begin
+	require 'd3_status'
+rescue LoadError
+	require 'rubygems'
+	require 'd3_status'
+end
+
+include D3Status
+
+D3Status.run
