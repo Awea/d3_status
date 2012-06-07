@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   # specify any dependencies here; for example:
-  s.add_development_dependency "awesome_print"
+  #s.add_development_dependency "awesome_print"
   s.add_runtime_dependency "nokogiri"
   s.add_runtime_dependency "colorize"
 end

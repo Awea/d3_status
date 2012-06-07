@@ -2,7 +2,6 @@ require "d3_status/version"
 require "nokogiri"
 require "colorize"
 require "open-uri"
-require "ap"
 require "parser/d3_parser"
 
 module D3Status
